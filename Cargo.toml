@@ -1,5 +1,5 @@
 [workspace]
-
+resolver = "2"
 members = [
     "firmware/firmware-demo",
     "shared/demo-share",
