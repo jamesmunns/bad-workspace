@@ -9,3 +9,6 @@ edition = "2021"
 
 [features]
 use-std = []
+# mutually exclusive
+ex-a = []
+ex-b = []

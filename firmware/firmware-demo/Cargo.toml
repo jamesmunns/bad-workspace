@@ -23,6 +23,7 @@ nrf52840-hal = "0.16"
 [dependencies.demo-share]
 path = "../../shared/demo-share"
 default-features = false
+features = ["ex-a"]
 
 [dev-dependencies]
 defmt-test = "0.3"

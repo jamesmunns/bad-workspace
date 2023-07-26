@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies.demo-share]
 path = "../../shared/demo-share"
-features = ["use-std"]
+features = ["use-std", "ex-b"]
