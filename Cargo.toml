@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "firmware/firmware-demo",
+    "shared/demo-share",
+]
