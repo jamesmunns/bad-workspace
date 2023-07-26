@@ -223,6 +223,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "host-demo"
+version = "0.1.0"
+dependencies = [
+ "demo-share",
+]
+
+[[package]]
 name = "nb"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"

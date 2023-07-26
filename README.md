@@ -20,3 +20,26 @@ cargo build --release -p firmware-demo --bin hello
 cargo build --workspace
 # (wrong target error)
 ```
+
+---
+
+## Works
+
+```sh
+cd firmware/firmware-demo
+cargo build --release --bin hello
+cd ../../host/host-demo
+cargo build --release
+```
+
+## Doesn't work
+
+```sh
+# top level
+cargo build --release -p firmware-demo --bin hello
+# (wrong target error)
+
+# top level
+cargo build --workspace
+# (wrong target error)
+```
