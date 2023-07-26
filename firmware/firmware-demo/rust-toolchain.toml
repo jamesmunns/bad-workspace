@@ -1,0 +1,5 @@
+[toolchain]
+channel = "stable"
+components = [ ]
+targets = [ "thumbv7em-none-eabihf" ]
+profile = "minimal"
