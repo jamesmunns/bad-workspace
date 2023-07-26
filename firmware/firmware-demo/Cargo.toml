@@ -20,6 +20,10 @@ defmt-rtt = "0.4"
 panic-probe = { version = "0.3", features = ["print-defmt"] }
 nrf52840-hal = "0.16"
 
+[dependencies.demo-share]
+path = "../../shared/demo-share"
+default-features = false
+
 [dev-dependencies]
 defmt-test = "0.3"
 
